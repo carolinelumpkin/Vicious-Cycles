@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+ <link rel="stylesheet" type="text/css" href="myStyles.css"/>
+  <title> Form</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <h1>About You</h1>
+  <form id="Questions" method="post" name="Questions">
+   <input type="text" id="name" name="name"><label for="name">Name</label><br>
+   <input type="email" id="email" name="email" multiple><label for="email">Email</label><br>
+<input type="text" id="phone number" name="phone number"><label for="phone number">Phone Number</label><br>
+
+<h2> Preferred Bike Color</h2>
+<input type="radio" name="bikecolor" value="blue" id="blue"><label for="blue">blue</label><br>
+<input type="radio" name="bikecolor" value="red" id="red"><label for="red">red</label><br>
+<input type="radio" name="bikecolor" value="green" id="green"><label for="green">green</label><br>
+<input type="radio" name="bikecolor" value="yellow" id="yellow"><label for="yellow">yellow</label><br>
+<input type="radio" name="bikecolor" value="other" id="other"><label for="other">other</label><br>
+<h2>Bike Useage</h2>
+<fieldset>
+  <legend> What will you use the bike for?</legend>
+  <input type="checkbox" name="useage" value="leisure" id="leisure"><label for="leisure">leisure</label><br>
+<input type="checkbox" name="long distance" value="long distance" id="long distance"><label for="long distance">long distance</label><br>
+<input type="checkbox" name="useage" value="mountain trails" id="mountain trails"><label for="mountain trails">mountain trails</label><br>
+<input type="checkbox" name="useage" value="other" id="other"><label for="other">other</label><br>
+</fieldset>
+<h2>Additional Information</h2>
+<label for="Anything else we should know?">Anything else we should know?</label>
+<textarea id= "Anything else we should know?" name="Anything else we should know?"></textarea>
+
+<input type="submit">
+  </form>
+</body>
+</html>
